@@ -13,12 +13,12 @@ size = Vector2(2235, 124)
 layer = -1
 
 [node name="WastelandSky" type="Sprite2D" parent="Background"]
-position = Vector2(723.5, 358.75)
-scale = Vector2(2.83789, 2.83789)
+position = Vector2(1086, 543.5)
+scale = Vector2(4.24609, 4.24609)
 texture = ExtResource("1_w2qba")
 
 [node name="Player" parent="." instance=ExtResource("2_d54p3")]
-position = Vector2(262, 152)
+position = Vector2(649, 807)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 zoom = Vector2(3, 3)
@@ -27,11 +27,11 @@ drag_horizontal_enabled = true
 drag_vertical_enabled = true
 
 [node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(409, 156)
+position = Vector2(528, 899)
 texture = ExtResource("3_4qyud")
 
 [node name="Ground" type="StaticBody2D" parent="."]
-position = Vector2(9, 282)
+position = Vector2(-8, 1030)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Ground"]
 position = Vector2(1056.5, -1)
